@@ -1,0 +1,32 @@
+*{
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+.products{
+    background: #fff;
+    width: 100%;
+    height: max-content;
+    scroll-snap-type:  y mandatory;
+    display: inline-flex;
+    flex-wrap: wrap;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.products div{
+    transition-property: all;
+    transition-duration: 1s;
+    margin-bottom: 20px;
+    position: relative;
+    border: 2px solid palevioletred;
+    border-radius: 4px;
+    background: palevioletred;
+    width: max-content;
+    margin-left: 40px;
+}
+.products div img{
+    width: 311.75px;
+    height: 311px;
+}
